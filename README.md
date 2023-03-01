@@ -51,3 +51,16 @@ I then lastly created my if statements to have the speed change to negative or p
 Link to sketch: https://editor.p5js.org/Sophiek/sketches/nyTLU-Qaa 
 
 ## Exercise 2
+For excercise I did the same thing from exercise 1 but I added a key function that assigns functions to the up and down arrow keys on the key board. 
+The keyPressed function defines the keys that are being used and assignes then a certian function 
+```Javascript
+function keyPressed() {
+  if (keyCode === UP_ARROW) {
+    directionY = -1;
+  }
+  if (keyCode === DOWN_ARROW) {
+    directionY = 1;
+  }
+```
+This shows how the direction of the sprite will change when each of these keys are clicked
+Link to sketch: https://editor.p5js.org/Sophiek/sketches/nyTLU-Qaa
